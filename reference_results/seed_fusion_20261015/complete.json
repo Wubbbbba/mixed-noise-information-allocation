@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "elapsed_seconds": 94.94601956754923,
+  "locked_selection_sha256": "15713b72d82cd2f5512997447c138cf8d5c9dcdd96a5345af32d152fc35e14f7",
+  "validation_rows": 18,
+  "test_rows": 12,
+  "paired_rows": 12,
+  "no_retraining": true,
+  "test_set_used_for_selection": false
+}

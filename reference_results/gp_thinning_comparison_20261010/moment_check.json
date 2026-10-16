@@ -1,0 +1,75 @@
+{
+  "seed": 20261010405,
+  "samples_per_pi": 1000000,
+  "x": 1.25,
+  "gamma": 0.25,
+  "ell": 4.0,
+  "rows": [
+    {
+      "pi": 0.1,
+      "mean_z": 1.2523175,
+      "mean_target": 1.2497177777777777,
+      "theoretical_mean": 1.25,
+      "variance_z": 7.0533266825204315,
+      "theoretical_variance_z": 7.03125,
+      "variance_target": 0.7828428328230798,
+      "theoretical_variance_target": 0.78125,
+      "conditional_covariance_z_target_mc": -0.002437195609417791,
+      "mean_z_standard_errors": 0.8739839815465623,
+      "mean_target_standard_errors": -0.31929799541587417
+    },
+    {
+      "pi": 0.3,
+      "mean_z": 1.2508283333333332,
+      "mean_target": 1.2500389285714286,
+      "theoretical_mean": 1.25,
+      "variance_z": 2.347407216826661,
+      "theoretical_variance_z": 2.34375,
+      "variance_target": 1.0041872271615895,
+      "theoretical_variance_target": 1.0044642857142858,
+      "conditional_covariance_z_target_mc": -0.0009358962769677156,
+      "mean_z_standard_errors": 0.5410650676280252,
+      "mean_target_standard_errors": 0.038841967157987746
+    },
+    {
+      "pi": 0.5,
+      "mean_z": 1.251256,
+      "mean_target": 1.2497135,
+      "theoretical_mean": 1.25,
+      "variance_z": 1.4101978326618327,
+      "theoretical_variance_z": 1.40625,
+      "variance_target": 1.4045028224205722,
+      "theoretical_variance_target": 1.40625,
+      "conditional_covariance_z_target_mc": 0.0007259855699855436,
+      "mean_z_standard_errors": 1.059152197645665,
+      "mean_target_standard_errors": -0.24159801323693025
+    },
+    {
+      "pi": 0.7,
+      "mean_z": 1.2498414285714285,
+      "mean_target": 1.2484749999999998,
+      "theoretical_mean": 1.25,
+      "variance_z": 1.0030841412045495,
+      "theoretical_variance_z": 1.0044642857142858,
+      "variance_target": 2.3399694587889024,
+      "theoretical_variance_target": 2.3437499999999996,
+      "conditional_covariance_z_target_mc": -0.0029311971335780835,
+      "mean_z_standard_errors": -0.15821865521217893,
+      "mean_target_standard_errors": -0.99612582873197
+    },
+    {
+      "pi": 0.9,
+      "mean_z": 1.2502175,
+      "mean_target": 1.2497900000000004,
+      "theoretical_mean": 1.25,
+      "variance_z": 0.7816724936255028,
+      "theoretical_variance_z": 0.78125,
+      "variance_target": 7.053919509819512,
+      "theoretical_variance_target": 7.031250000000002,
+      "conditional_covariance_z_target_mc": 0.0008170603809492409,
+      "mean_z_standard_errors": 0.2460731598528977,
+      "mean_target_standard_errors": -0.07919595949274225
+    }
+  ],
+  "note": "Covariance is conditional on the fixed x simulation and should be zero; numerical agreement checks but does not replace the beta-binomial proof."
+}

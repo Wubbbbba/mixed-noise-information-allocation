@@ -1,0 +1,36 @@
+{
+  "out": "output/experiments/mixed_pretrain_ols_20261011",
+  "seed": 2026101117,
+  "pilot_size": 8192,
+  "pilots": 3,
+  "reps": 2000,
+  "quad": 24,
+  "signal": "iid scalar X in {0.5,1.5}, equal probabilities",
+  "noise_parameters": {
+    "gamma": 0.25,
+    "sigma": 0.25,
+    "ell": 4.0
+  },
+  "taus": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "ns": [
+    8,
+    32
+  ],
+  "selector": "Laplace finite-n risk plug-in from noisy pilot pairs; no candidate fit",
+  "input": "Z_tau",
+  "model": "no-intercept, unregularized scalar OLS",
+  "test": "analytic expectation over an independent test draw; MC over training",
+  "ci": "approximate Student t over independent training repetitions, conditional on pilot",
+  "gg": "finite quadrature; 24/48 order comparisons; no certified uniform bias bound",
+  "source_sha256": {
+    "verify_mixed_pretrain_allocation.py": "ff8ac01560c6f88095e9d4afb5df23ce9fcbc797de61d53ba3714d478275d3eb",
+    "noise_models.py": "6748581dbb2a9934eddc41376a91609e9e4367c7aaaccd15a6f4d8b12ca2f898"
+  }
+}

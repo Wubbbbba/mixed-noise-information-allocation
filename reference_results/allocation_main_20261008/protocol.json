@@ -1,0 +1,58 @@
+{
+  "out": "output/experiments/allocation_main_20261008",
+  "models": [
+    "pg",
+    "gg",
+    "gp"
+  ],
+  "taus": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "reps": 5,
+  "train_n": 384,
+  "val_n": 512,
+  "test_n": 2048,
+  "size": 16,
+  "epochs": 40,
+  "batch_size": 64,
+  "lr": 0.002,
+  "gamma": 0.25,
+  "sigma": 0.25,
+  "ell": 4.0,
+  "quad_order": 24,
+  "threads": 4,
+  "seed": 20261008,
+  "torch": "2.14.0+cpu",
+  "numpy": "2.4.1",
+  "scipy": "1.16.3",
+  "python": "3.13.3",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "device": "cpu",
+  "signal_range": [
+    0.25,
+    2.0
+  ],
+  "loss_unit": "mean squared error per image",
+  "selection": "raw mean plus sample SD on independent validation images",
+  "test_risk": "single auxiliary-corrupted input Z_tau; not direct Y deployment",
+  "gg_label": "deterministic quadrature approximation; no exact-unbiasedness claim for finite quadrature",
+  "gg_quadrature_orders": {
+    "0.25": 48,
+    "0.5": 24,
+    "1.0": 24,
+    "2.0": 24,
+    "4.0": 24,
+    "8.0": 24
+  },
+  "ci_estimand": "risk of each fixed selected model, conditional on train/validation",
+  "ci_confidence": "95% pointwise; t intervals asymptotic; bounded Hoeffding and empirical Bernstein finite-sample",
+  "source_sha256": {
+    "run_allocation.py": "add0fcf48b70865202addf17e2c33e8e5311df24f543b58773d44ad0c9b6cabf",
+    "noise_models.py": "6748581dbb2a9934eddc41376a91609e9e4367c7aaaccd15a6f4d8b12ca2f898"
+  }
+}

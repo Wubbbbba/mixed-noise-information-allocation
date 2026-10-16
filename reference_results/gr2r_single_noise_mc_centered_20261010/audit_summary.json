@@ -1,0 +1,378 @@
+{
+  "remote_source": "external_runs/gr2r_alpha_rigorous_20261009/mc_centered_20261010/",
+  "training_performed_locally": false,
+  "selection_performed_locally": false,
+  "selections_locked_before_fresh_test": true,
+  "aggregation": "concatenate five seeds of 75 fresh-test images; use finite-J MC MSE",
+  "psnr_dynamic_range": 1.0,
+  "source_sha256": {
+    "seed0\\complete.json": "33eb65306e6fa868fb126c4d265a3ad26c83543a5d8dd00a87a33f7ed3b9adca",
+    "seed0\\gaussian_selection.json": "d433b998898cfb428ea78cca314bdb2271cdc2b9d01c594bfa2cf6f3b455bf49",
+    "seed0\\per_image\\gaussian_a0.12.npz": "3a4485ad9a7ac3505a33e4385dc2552c465b31ff2b6360244c52fc95602e4547",
+    "seed0\\per_image\\gaussian_a0.30.npz": "bce2c227f8faed72970b0d21e9cd5bf4a1219c32817807a11165cf4e06caed2a",
+    "seed0\\per_image\\gaussian_a0.50.npz": "f86d04259f8ae8622e0632f3b93dbc57be79675d269679cd2c204a7179bca4ac",
+    "seed0\\poisson_selection.json": "be78438ea48687143e541d06fa0b9a019030c5b757e603a035fc1bb8178282df",
+    "seed0\\per_image\\poisson_a0.30.npz": "6f309984558c64c264e39c4cc32ca21def5921a713f9cb651abadb47663ed47b",
+    "seed0\\per_image\\poisson_a0.12.npz": "56899967130c1c9264807f48e6ef6a62069d25e534409b6d96927cf6516eec44",
+    "seed0\\per_image\\poisson_a0.15.npz": "518b7f14f109f9a6ad165554566333644f5e6215bc413c57c032aa613fea4e0b",
+    "seed0\\per_image\\poisson_a0.50.npz": "85e262488ca2c6625ededbf1ae2265bc1c3efe1769eb10556973a234b56f7ac7",
+    "seed0\\gamma_selection.json": "41290268c25786c882f7d6019388a89509c9a8de0c67148c3d81afb39b2d2f64",
+    "seed0\\per_image\\gamma_a0.30.npz": "6a6f125e6910e505dcf46a6366f3baae3bff39704d182d90ec7b4e08e51e95f2",
+    "seed0\\per_image\\gamma_a0.12.npz": "77d341608133fa935211618f6455510cf050da387286c600e0abd9c8a88c1315",
+    "seed0\\per_image\\gamma_a0.20.npz": "f65465d7984dace4e34dd9a828a112776cb77ed431de6e829fef70ad20726996",
+    "seed0\\per_image\\gamma_a0.50.npz": "feb76de41e2f9f3113a0c7dbaf1fbcbfd24bfd5b83dfd48725df88321d7c29a0",
+    "seed0\\per_image\\gamma_a0.15.npz": "7bc71612f9c624594414e2dd8a6f695731eb1574ea356572e592cb7066b69c57",
+    "seed1\\complete.json": "fc2621117297b3475fe3db316af76d12f670f7067c0cd547c04ef3c890b43b7a",
+    "seed1\\gaussian_selection.json": "8332cbd0b8baa5e6ef79000b041203f9d3a9a30ce68afc0c739ea6e4e0f1cbb0",
+    "seed1\\per_image\\gaussian_a0.30.npz": "67409efbfa510fe61741b1884082e75d4a0d4eeec994cdb8ad9a68d5f3300256",
+    "seed1\\per_image\\gaussian_a0.50.npz": "94845649b32c07b102e3006bc15e889bafa1a6549676135f383a2ac78b14863c",
+    "seed1\\poisson_selection.json": "8364202abb7c9d0bed6148b0c1d465e309031b366ca8cbe7b751a10a683cd8e2",
+    "seed1\\per_image\\poisson_a0.20.npz": "2caa0f2a3a35555805f7b3aba765a8cb37623ddeed9e2a07eac84095bd2a7f93",
+    "seed1\\per_image\\poisson_a0.12.npz": "a5b47fa4f10dc23458fa9ca365a1840a3c2d2ec2cf9b6a0490f7bdeccc1b54a9",
+    "seed1\\per_image\\poisson_a0.15.npz": "3e442d4e4ee91a1d8b8e0d8f18fa1859df3f9dd7694919360cdc30f21c864b5b",
+    "seed1\\per_image\\poisson_a0.50.npz": "0c9905f3d1c2d3a9317873bd11535323b9d39af97cd0d1b9c64fadcff1f4a673",
+    "seed1\\gamma_selection.json": "136e0ded5e857f9412fb22443103539600a23dc056c67e818d26b389a909200b",
+    "seed1\\per_image\\gamma_a0.15.npz": "c7ac25af0ac0b2de6c3edec8cfd0bcfc1941ddcae421df51364723c4ff2028ab",
+    "seed1\\per_image\\gamma_a0.12.npz": "bbdc012e061f866b953e94c09e885b6d75ac779b592853eff93f5a25509e061c",
+    "seed1\\per_image\\gamma_a0.20.npz": "234af90a578f1700e783a068bab945e12d732d248b7274552f0900f017d0151e",
+    "seed1\\per_image\\gamma_a0.50.npz": "821b7fe60a765e876a6972ee50f81a8a341618378d6f3dcbcea31bafcd718223",
+    "seed2\\complete.json": "a0a717876e98b08b9aeba4949a9ecbd975dacf85a51abba51c558b7a1479d99f",
+    "seed2\\gaussian_selection.json": "ff85c03026954042936e8c459008de1913b17e90e8fa288ac373514dff90682b",
+    "seed2\\per_image\\gaussian_a0.30.npz": "5371032f33baf9184ffef8c04981df8487e40d1e1f848786b419bce54d62bd14",
+    "seed2\\per_image\\gaussian_a0.50.npz": "3b8df50fb149da3bd02a895e1a3ab02319991ffe62ea399370f61504e4181e18",
+    "seed2\\poisson_selection.json": "db9cb3320936f6d754cefc6f8d5f40b7f0231ac8e9d43800ebb863f412bb3a3f",
+    "seed2\\per_image\\poisson_a0.30.npz": "3b79abd6160e1a1c007be56d7f68fda125ef7f1f27c498e68da67ecce9236a96",
+    "seed2\\per_image\\poisson_a0.12.npz": "47a8dcdf0f7a75cf7a4621d5441756c503b3a8f7fe391678c8be8d6d97f77d9a",
+    "seed2\\per_image\\poisson_a0.15.npz": "6e16e38d9cc28aaf161061f7af9f5677d40876413ec6c6e57ae129373974e610",
+    "seed2\\per_image\\poisson_a0.50.npz": "7584e6d1c81594195edb961f861e7a4dce1ab26441d40efd3e6ca5b8db8d3617",
+    "seed2\\gamma_selection.json": "9786d58b38c8a26888b4409c022be2b85b94e27c656dff8191db1de587f483b2",
+    "seed2\\per_image\\gamma_a0.20.npz": "33f01018997aba88c50108196d524d8c0b7593d4f037a9400cd8d989f47150b8",
+    "seed2\\per_image\\gamma_a0.12.npz": "18977536299e52bc8390f941a23af505690be4530ac7149fbaaa8fa71fe503c9",
+    "seed2\\per_image\\gamma_a0.50.npz": "604d28418d67b244e1ad67eff8d7365d40ec2e6497eb758603ca6a138cb0325e",
+    "seed3\\complete.json": "77f54d19e74ddd74ed038386d4208bbbb1b023a3c946e55a9adece512ac510f4",
+    "seed3\\gaussian_selection.json": "59ad7a0edceb0765d512679ee4b337801c881bd92bd2f5300798715c49532394",
+    "seed3\\per_image\\gaussian_a0.30.npz": "e10cba9f403930f8aef3583d29ccfa7ae4a0c31e991279ccaa8d26908b25713f",
+    "seed3\\per_image\\gaussian_a0.50.npz": "485865c721c94d4c14080bd17020150dd356c9e8cc27fa0fd0f219ef811d90e9",
+    "seed3\\poisson_selection.json": "9acca2e55303884870b4df76df2ef9fafb3786ac58293b184f060569e24ec43f",
+    "seed3\\per_image\\poisson_a0.30.npz": "d0031058e02c83cb60bd5858cd0499eb31d3d87c5a5419df58ad385c5c880e9a",
+    "seed3\\per_image\\poisson_a0.12.npz": "9d78594605a077b00bf3de415cee7f97255430e3b4d420ccda1b096dd5892d51",
+    "seed3\\per_image\\poisson_a0.15.npz": "e476f9292af78821476266f2e06092c71c4ae52a04434713ef18a9e95bab5cd6",
+    "seed3\\per_image\\poisson_a0.50.npz": "9fbe4a32f7f0c29a5fd07d6b42717af3d0d93bbc68232ec29f4673160286599a",
+    "seed3\\gamma_selection.json": "6e0abe152d8a9a4c57f7dfa5eb8f07a1df521092115cbe051ed9a24bc59f3d8d",
+    "seed3\\per_image\\gamma_a0.20.npz": "0a68033fee9bc9bbe8d6b80549d6eb6267b2d7a6ace8a01cf2abab5882922038",
+    "seed3\\per_image\\gamma_a0.12.npz": "fe6e569df0c93f8ca2c685ff15706b765612b4717b98c239a72047628e54dd0a",
+    "seed3\\per_image\\gamma_a0.50.npz": "2a8cf693779daa48d527c33494f89702e17b361f72eea09f8cdd45cb5b39e202",
+    "seed4\\complete.json": "0fe27279c97bffe92ad7f65ded6bbc7a05ba8d4e7d1a662cd7320da30537c88e",
+    "seed4\\gaussian_selection.json": "846b9144bca1e61545471f1a0caab6fde5de9c2d6f2ce69f70e7136aa41bf361",
+    "seed4\\per_image\\gaussian_a0.30.npz": "715b8975ddbabf000eb3862b79c11d5937c350c6536a55e7cdd218c19b062699",
+    "seed4\\per_image\\gaussian_a0.50.npz": "8e3745058433722f29cb13b0f51f5b221ff9e5a67a37df270a83a0d42d891b63",
+    "seed4\\per_image\\gaussian_a0.15.npz": "a0cb45c41da5d6a179c13cc7212fc99b3fb5e44523a07d500075fe1b016d4065",
+    "seed4\\poisson_selection.json": "f416c0268fb924b2c780981a33db819f9281386dcfa49e14c04ce301252e7ffd",
+    "seed4\\per_image\\poisson_a0.30.npz": "d2ee9b6e811c1b41c92f58a57e8d83c14fb48874f295423a2f34e0898568865c",
+    "seed4\\per_image\\poisson_a0.12.npz": "121721debae901104eb85a8107a3da8decc81e98ba5e13a5ea37a2ee647758da",
+    "seed4\\per_image\\poisson_a0.15.npz": "da23fcc52429de61f41c1eab88b29927fa750e7ea2e1ba3fb96e84d423dc670c",
+    "seed4\\per_image\\poisson_a0.50.npz": "85b7b07b8142e353d87bd466cad57bc619dcdd299c91fda4526ccbaefcf7a77b",
+    "seed4\\gamma_selection.json": "d547a3b711090e9f1e63e08c529988be2f102f22b5ebb5fd6361bee7d60c18a3",
+    "seed4\\per_image\\gamma_a0.20.npz": "29759b0f73c0cfdc8210505f02e64fce4184f418bb3bc000143be3ee638c3f12",
+    "seed4\\per_image\\gamma_a0.12.npz": "04b78f5a5c552c7d14560a5953abfba0c85a335fbada15c6bc94518fd4d48cce",
+    "seed4\\per_image\\gamma_a0.50.npz": "c90b336a8b9346a5f4e7c1570757ceb9bf62069449932da78ae7ba995daef786",
+    "seed4\\per_image\\gamma_a0.15.npz": "c9727c86bae650d67308a783f87ac167c252e81716376b921b96b8d590b45b1f"
+  },
+  "alpha_correspondence": [
+    {
+      "noise": "gaussian",
+      "method": "Q_MC selection",
+      "alpha_by_seed": "0.12,0.3,0.3,0.3,0.3",
+      "mode_alpha": "0.3",
+      "mode_count": 4,
+      "selection_source": "validation"
+    },
+    {
+      "noise": "gaussian",
+      "method": "GR2R sensitivity",
+      "alpha_by_seed": "0.3,0.3,0.3,0.3,0.3",
+      "mode_alpha": "0.3",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "gaussian",
+      "method": "GR2R main",
+      "alpha_by_seed": "0.5,0.5,0.5,0.5,0.5",
+      "mode_alpha": "0.5",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "gaussian",
+      "method": "raw J",
+      "alpha_by_seed": "0.5,0.5,0.5,0.5,0.5",
+      "mode_alpha": "0.5",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "gaussian",
+      "method": "clean validation oracle",
+      "alpha_by_seed": "0.5,0.3,0.3,0.3,0.15",
+      "mode_alpha": "0.3",
+      "mode_count": 3,
+      "selection_source": "validation"
+    },
+    {
+      "noise": "poisson",
+      "method": "Q_MC selection",
+      "alpha_by_seed": "0.3,0.2,0.3,0.3,0.3",
+      "mode_alpha": "0.3",
+      "mode_count": 4,
+      "selection_source": "validation"
+    },
+    {
+      "noise": "poisson",
+      "method": "GR2R sensitivity",
+      "alpha_by_seed": "0.12,0.12,0.12,0.12,0.12",
+      "mode_alpha": "0.12",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "poisson",
+      "method": "GR2R main",
+      "alpha_by_seed": "0.15,0.15,0.15,0.15,0.15",
+      "mode_alpha": "0.15",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "poisson",
+      "method": "raw J",
+      "alpha_by_seed": "0.5,0.5,0.5,0.5,0.5",
+      "mode_alpha": "0.5",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "poisson",
+      "method": "clean validation oracle",
+      "alpha_by_seed": "0.3,0.2,0.3,0.3,0.3",
+      "mode_alpha": "0.3",
+      "mode_count": 4,
+      "selection_source": "validation"
+    },
+    {
+      "noise": "gamma",
+      "method": "Q_MC selection",
+      "alpha_by_seed": "0.3,0.15,0.2,0.2,0.2",
+      "mode_alpha": "0.2",
+      "mode_count": 3,
+      "selection_source": "validation"
+    },
+    {
+      "noise": "gamma",
+      "method": "GR2R sensitivity",
+      "alpha_by_seed": "0.12,0.12,0.12,0.12,0.12",
+      "mode_alpha": "0.12",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "gamma",
+      "method": "GR2R main",
+      "alpha_by_seed": "0.2,0.2,0.2,0.2,0.2",
+      "mode_alpha": "0.2",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "gamma",
+      "method": "raw J",
+      "alpha_by_seed": "0.5,0.5,0.5,0.5,0.5",
+      "mode_alpha": "0.5",
+      "mode_count": 5,
+      "selection_source": "fixed protocol"
+    },
+    {
+      "noise": "gamma",
+      "method": "clean validation oracle",
+      "alpha_by_seed": "0.15,0.2,0.2,0.2,0.15",
+      "mode_alpha": "0.2",
+      "mode_count": 3,
+      "selection_source": "validation"
+    }
+  ],
+  "psnr_comparison": [
+    {
+      "noise": "gaussian",
+      "method": "Q_MC selection",
+      "alpha_by_seed": "0.12,0.3,0.3,0.3,0.3",
+      "n_images": 375,
+      "pooled_mse": 0.0013080529143723349,
+      "pooled_psnr_db": 28.833746872387383,
+      "mean_per_image_psnr_db": 29.649650661762067
+    },
+    {
+      "noise": "gaussian",
+      "method": "GR2R sensitivity",
+      "alpha_by_seed": "0.3,0.3,0.3,0.3,0.3",
+      "n_images": 375,
+      "pooled_mse": 0.0013103450618994733,
+      "pooled_psnr_db": 28.826143236224738,
+      "mean_per_image_psnr_db": 29.666306937023396
+    },
+    {
+      "noise": "gaussian",
+      "method": "GR2R main",
+      "alpha_by_seed": "0.5,0.5,0.5,0.5,0.5",
+      "n_images": 375,
+      "pooled_mse": 0.0013809526418723788,
+      "pooled_psnr_db": 28.59821214778474,
+      "mean_per_image_psnr_db": 29.480591427117595
+    },
+    {
+      "noise": "gaussian",
+      "method": "raw J",
+      "alpha_by_seed": "0.5,0.5,0.5,0.5,0.5",
+      "n_images": 375,
+      "pooled_mse": 0.0013809526418723788,
+      "pooled_psnr_db": 28.59821214778474,
+      "mean_per_image_psnr_db": 29.480591427117595
+    },
+    {
+      "noise": "gaussian",
+      "method": "clean validation oracle",
+      "alpha_by_seed": "0.5,0.3,0.3,0.3,0.15",
+      "n_images": 375,
+      "pooled_mse": 0.0013120328488682087,
+      "pooled_psnr_db": 28.820552915582162,
+      "mean_per_image_psnr_db": 29.63746210731936
+    },
+    {
+      "noise": "poisson",
+      "method": "Q_MC selection",
+      "alpha_by_seed": "0.3,0.2,0.3,0.3,0.3",
+      "n_images": 375,
+      "pooled_mse": 0.008490656435489654,
+      "pooled_psnr_db": 20.710587319833497,
+      "mean_per_image_psnr_db": 21.57719905131615
+    },
+    {
+      "noise": "poisson",
+      "method": "GR2R sensitivity",
+      "alpha_by_seed": "0.12,0.12,0.12,0.12,0.12",
+      "n_images": 375,
+      "pooled_mse": 0.010073897986672818,
+      "pooled_psnr_db": 19.968024513390773,
+      "mean_per_image_psnr_db": 20.606651040617116
+    },
+    {
+      "noise": "poisson",
+      "method": "GR2R main",
+      "alpha_by_seed": "0.15,0.15,0.15,0.15,0.15",
+      "n_images": 375,
+      "pooled_mse": 0.009518522252639135,
+      "pooled_psnr_db": 20.214304704537362,
+      "mean_per_image_psnr_db": 20.930084536137468
+    },
+    {
+      "noise": "poisson",
+      "method": "raw J",
+      "alpha_by_seed": "0.5,0.5,0.5,0.5,0.5",
+      "n_images": 375,
+      "pooled_mse": 0.008964651886063317,
+      "pooled_psnr_db": 20.474665702286377,
+      "mean_per_image_psnr_db": 21.415445793353836
+    },
+    {
+      "noise": "poisson",
+      "method": "clean validation oracle",
+      "alpha_by_seed": "0.3,0.2,0.3,0.3,0.3",
+      "n_images": 375,
+      "pooled_mse": 0.008490656435489654,
+      "pooled_psnr_db": 20.710587319833497,
+      "mean_per_image_psnr_db": 21.57719905131615
+    },
+    {
+      "noise": "gamma",
+      "method": "Q_MC selection",
+      "alpha_by_seed": "0.3,0.15,0.2,0.2,0.2",
+      "n_images": 375,
+      "pooled_mse": 0.0036365669737569986,
+      "pooled_psnr_db": 24.3930840972454,
+      "mean_per_image_psnr_db": 25.355627799867637
+    },
+    {
+      "noise": "gamma",
+      "method": "GR2R sensitivity",
+      "alpha_by_seed": "0.12,0.12,0.12,0.12,0.12",
+      "n_images": 375,
+      "pooled_mse": 0.0038037038259984305,
+      "pooled_psnr_db": 24.197933065984962,
+      "mean_per_image_psnr_db": 25.04923916934552
+    },
+    {
+      "noise": "gamma",
+      "method": "GR2R main",
+      "alpha_by_seed": "0.2,0.2,0.2,0.2,0.2",
+      "n_images": 375,
+      "pooled_mse": 0.003586164229704688,
+      "pooled_psnr_db": 24.453698256435153,
+      "mean_per_image_psnr_db": 25.42528749842385
+    },
+    {
+      "noise": "gamma",
+      "method": "raw J",
+      "alpha_by_seed": "0.5,0.5,0.5,0.5,0.5",
+      "n_images": 375,
+      "pooled_mse": 0.004020305300519491,
+      "pooled_psnr_db": 23.957409654985202,
+      "mean_per_image_psnr_db": 25.0131343227255
+    },
+    {
+      "noise": "gamma",
+      "method": "clean validation oracle",
+      "alpha_by_seed": "0.15,0.2,0.2,0.2,0.15",
+      "n_images": 375,
+      "pooled_mse": 0.003546120543498546,
+      "pooled_psnr_db": 24.502465054845523,
+      "mean_per_image_psnr_db": 25.434180602947958
+    }
+  ],
+  "psnr_deltas": [
+    {
+      "noise": "gaussian",
+      "comparison": "Q_MC selection minus GR2R sensitivity",
+      "delta_pooled_psnr_db": 0.007603636162645699,
+      "delta_mean_per_image_psnr_db": -0.016656275261329512
+    },
+    {
+      "noise": "gaussian",
+      "comparison": "Q_MC selection minus GR2R main",
+      "delta_pooled_psnr_db": 0.23553472460264402,
+      "delta_mean_per_image_psnr_db": 0.1690592346444717
+    },
+    {
+      "noise": "poisson",
+      "comparison": "Q_MC selection minus GR2R sensitivity",
+      "delta_pooled_psnr_db": 0.7425628064427237,
+      "delta_mean_per_image_psnr_db": 0.9705480106990336
+    },
+    {
+      "noise": "poisson",
+      "comparison": "Q_MC selection minus GR2R main",
+      "delta_pooled_psnr_db": 0.4962826152961348,
+      "delta_mean_per_image_psnr_db": 0.6471145151786821
+    },
+    {
+      "noise": "gamma",
+      "comparison": "Q_MC selection minus GR2R sensitivity",
+      "delta_pooled_psnr_db": 0.19515103126043698,
+      "delta_mean_per_image_psnr_db": 0.3063886305221182
+    },
+    {
+      "noise": "gamma",
+      "comparison": "Q_MC selection minus GR2R main",
+      "delta_pooled_psnr_db": -0.06061415918975399,
+      "delta_mean_per_image_psnr_db": -0.06965969855621168
+    }
+  ]
+}

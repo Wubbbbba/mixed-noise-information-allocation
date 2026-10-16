@@ -1,0 +1,149 @@
+{
+  "selections": [
+    {
+      "model": "pg",
+      "pilot_rep": 0,
+      "n": 8,
+      "tau": 0.5,
+      "selected_risk_plugin": 0.5882016612894012,
+      "boundary": false
+    },
+    {
+      "model": "pg",
+      "pilot_rep": 0,
+      "n": 32,
+      "tau": 0.5,
+      "selected_risk_plugin": 0.4288717154153371,
+      "boundary": false
+    },
+    {
+      "model": "pg",
+      "pilot_rep": 1,
+      "n": 8,
+      "tau": 0.5,
+      "selected_risk_plugin": 0.6203784153541205,
+      "boundary": false
+    },
+    {
+      "model": "pg",
+      "pilot_rep": 1,
+      "n": 32,
+      "tau": 0.25,
+      "selected_risk_plugin": 0.43828601902350917,
+      "boundary": true
+    },
+    {
+      "model": "pg",
+      "pilot_rep": 2,
+      "n": 8,
+      "tau": 0.5,
+      "selected_risk_plugin": 0.6042751400789015,
+      "boundary": false
+    },
+    {
+      "model": "pg",
+      "pilot_rep": 2,
+      "n": 32,
+      "tau": 0.5,
+      "selected_risk_plugin": 0.4330433747989405,
+      "boundary": false
+    },
+    {
+      "model": "gg",
+      "pilot_rep": 0,
+      "n": 8,
+      "tau": 1.0,
+      "selected_risk_plugin": 1.0793208272379728,
+      "boundary": false
+    },
+    {
+      "model": "gg",
+      "pilot_rep": 0,
+      "n": 32,
+      "tau": 1.0,
+      "selected_risk_plugin": 0.7418357443332328,
+      "boundary": false
+    },
+    {
+      "model": "gg",
+      "pilot_rep": 1,
+      "n": 8,
+      "tau": 1.0,
+      "selected_risk_plugin": 0.971204609970465,
+      "boundary": false
+    },
+    {
+      "model": "gg",
+      "pilot_rep": 1,
+      "n": 32,
+      "tau": 0.5,
+      "selected_risk_plugin": 0.6042940292606516,
+      "boundary": false
+    },
+    {
+      "model": "gg",
+      "pilot_rep": 2,
+      "n": 8,
+      "tau": 1.0,
+      "selected_risk_plugin": 1.0433851830737961,
+      "boundary": false
+    },
+    {
+      "model": "gg",
+      "pilot_rep": 2,
+      "n": 32,
+      "tau": 1.0,
+      "selected_risk_plugin": 0.7382862237416481,
+      "boundary": false
+    },
+    {
+      "model": "gp",
+      "pilot_rep": 0,
+      "n": 8,
+      "tau": 2.0,
+      "selected_risk_plugin": 1.4085243636924272,
+      "boundary": false
+    },
+    {
+      "model": "gp",
+      "pilot_rep": 0,
+      "n": 32,
+      "tau": 1.0,
+      "selected_risk_plugin": 0.8622158692096594,
+      "boundary": false
+    },
+    {
+      "model": "gp",
+      "pilot_rep": 1,
+      "n": 8,
+      "tau": 2.0,
+      "selected_risk_plugin": 1.4894158073801536,
+      "boundary": false
+    },
+    {
+      "model": "gp",
+      "pilot_rep": 1,
+      "n": 32,
+      "tau": 1.0,
+      "selected_risk_plugin": 0.8814762180706949,
+      "boundary": false
+    },
+    {
+      "model": "gp",
+      "pilot_rep": 2,
+      "n": 8,
+      "tau": 1.0,
+      "selected_risk_plugin": 1.4311789038363862,
+      "boundary": false
+    },
+    {
+      "model": "gp",
+      "pilot_rep": 2,
+      "n": 32,
+      "tau": 1.0,
+      "selected_risk_plugin": 0.8433132744419598,
+      "boundary": false
+    }
+  ],
+  "decision": "frozen; no test-based reselection"
+}

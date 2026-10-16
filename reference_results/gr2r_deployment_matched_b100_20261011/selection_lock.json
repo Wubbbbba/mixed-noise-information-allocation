@@ -1,0 +1,12 @@
+{
+  "selection_locked_before_b100_load": true,
+  "validation_j_equals_test_j": {
+    "gaussian": 10,
+    "poisson": 5,
+    "gamma": 10
+  },
+  "selection_sha256": "3ceddf757ce2dd568cc1ec22a7725ac6f5166320c057ce981eeaaff0a7278766",
+  "parameter_coordinate": "historical alpha field is GR2R allocation proportion a; Gaussian t=a/(1-a)",
+  "old_checkpoints_reused": true,
+  "new_training": false
+}

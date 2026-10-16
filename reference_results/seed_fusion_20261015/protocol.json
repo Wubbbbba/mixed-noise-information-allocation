@@ -1,0 +1,46 @@
+{
+  "source_run": "results/allocation_main_20261008",
+  "source_protocol_sha256": "2298048c9d2db3f42ec709703235b015c44337e5569dcd21c323432bc861bc94",
+  "checkpoint_dir": "results/allocation_main_20261008/checkpoints",
+  "noise_models": [
+    "pg",
+    "gg",
+    "gp"
+  ],
+  "taus": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "seed_repetitions": 5,
+  "validation_n": 1024,
+  "test_n": 8192,
+  "image_size": 16,
+  "partition": "fixed 2x2 quadrants chosen before validation",
+  "methods": [
+    "best_single_Q",
+    "uniform",
+    "global_Q",
+    "regional_Q"
+  ],
+  "selection": "centered Q only; clean validation is diagnostic",
+  "test_generated_after_lock": true,
+  "seeds": {
+    "validation_clean": 2026101511,
+    "validation_observation_base": 2026102500,
+    "validation_pair_base": 2026103500,
+    "test_clean": 2026101533,
+    "test_observation_base": 2026104500,
+    "test_pair_base": 2026105500
+  },
+  "device": "cuda",
+  "batch_size": 1024,
+  "python": "3.10.12",
+  "numpy": "1.24.4",
+  "scipy": "1.13.1",
+  "torch": "2.4.0a0+f70bd71a48.nv24.06",
+  "source_sha256": "a0ecb4c128ef4f53fe56523f919c8320107bab96c4b568c7fff6763e4feed638"
+}

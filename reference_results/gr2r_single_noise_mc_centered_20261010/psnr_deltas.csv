@@ -1,0 +1,7 @@
+noise,comparison,delta_pooled_psnr_db,delta_mean_per_image_psnr_db
+gaussian,Q_MC selection minus GR2R sensitivity,0.007603636162645699,-0.016656275261329512
+gaussian,Q_MC selection minus GR2R main,0.23553472460264402,0.1690592346444717
+poisson,Q_MC selection minus GR2R sensitivity,0.7425628064427237,0.9705480106990336
+poisson,Q_MC selection minus GR2R main,0.4962826152961348,0.6471145151786821
+gamma,Q_MC selection minus GR2R sensitivity,0.19515103126043698,0.3063886305221182
+gamma,Q_MC selection minus GR2R main,-0.06061415918975399,-0.06965969855621168

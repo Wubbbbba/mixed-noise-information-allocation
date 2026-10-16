@@ -1,0 +1,60 @@
+{
+  "model": "Gaussian scalar no-intercept OLS with K-recorruption deployment averaging",
+  "n": 8,
+  "k": 1.0,
+  "q": 1.0,
+  "training_repetitions": 200000,
+  "seed": 20261010,
+  "simulation": "independent training pairs; exact conditional risk on an independent deployment observation",
+  "maximum_identity_absolute_error": 3.552713678800501e-15,
+  "rows": [
+    {
+      "K": 1,
+      "optimal_t": 1.2152504370215298,
+      "minimum_exact_risk": 1.1076252185107651,
+      "risk_at_K1_optimum": 1.1076252185107651,
+      "mc_mean_at_optimum": 1.1077354749385215,
+      "mc_standard_error": 0.0017425754136443858,
+      "mc_z_score": 0.06327211258296629,
+      "positive_stationary_roots": [
+        1.2152504370215298
+      ]
+    },
+    {
+      "K": 5,
+      "optimal_t": 1.8183127031253723,
+      "minimum_exact_risk": 0.8743953133247776,
+      "risk_at_K1_optimum": 0.8869965471915583,
+      "mc_mean_at_optimum": 0.875493106916981,
+      "mc_standard_error": 0.001125746695239795,
+      "mc_z_score": 0.9751692781736928,
+      "positive_stationary_roots": [
+        1.8183127031253723
+      ]
+    },
+    {
+      "K": 10,
+      "optimal_t": 1.9083306503416329,
+      "minimum_exact_risk": 0.8436022795808951,
+      "risk_at_K1_optimum": 0.8594179632766574,
+      "mc_mean_at_optimum": 0.8430879517004154,
+      "mc_standard_error": 0.0010642512539813024,
+      "mc_z_score": -0.4832767436783367,
+      "positive_stationary_roots": [
+        1.9083306503416329
+      ]
+    },
+    {
+      "K": "infinity",
+      "optimal_t": 1.9999999999999996,
+      "minimum_exact_risk": 0.8125,
+      "risk_at_K1_optimum": 0.8318393793617566,
+      "mc_mean_at_optimum": 0.8125445369406016,
+      "mc_standard_error": 0.0010326948171536677,
+      "mc_z_score": 0.04312691403287378,
+      "positive_stationary_roots": [
+        1.9999999999999996
+      ]
+    }
+  ]
+}

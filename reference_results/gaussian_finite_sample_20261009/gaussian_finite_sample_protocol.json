@@ -1,0 +1,45 @@
+{
+  "seed": 20261009,
+  "repetitions": 20000,
+  "test_per_fit": 16,
+  "cases": [
+    {
+      "case": "internal_n8",
+      "n": 8,
+      "k": 1.0,
+      "q": 1.0
+    },
+    {
+      "case": "critical_n8",
+      "n": 8,
+      "k": 0.3779644730092272,
+      "q": 1.0
+    },
+    {
+      "case": "boundary_n8",
+      "n": 8,
+      "k": 0.35,
+      "q": 1.0
+    },
+    {
+      "case": "internal_n16",
+      "n": 16,
+      "k": 1.0,
+      "q": 1.0
+    },
+    {
+      "case": "internal_n32",
+      "n": 32,
+      "k": 1.0,
+      "q": 1.0
+    },
+    {
+      "case": "internal_n64",
+      "n": 64,
+      "k": 1.0,
+      "q": 1.0
+    }
+  ],
+  "n_le_2": "E[1/chi2_n]=infinity, hence expected OLS risk is infinite for every finite t",
+  "tau_asymptotic": "sqrt(q*(k+q)/k)*n^(-1/4) for fixed k,q>0"
+}

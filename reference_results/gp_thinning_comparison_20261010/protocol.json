@@ -1,0 +1,33 @@
+{
+  "purpose": "Gamma--Poisson Student-t versus negative-binomial thinning",
+  "source": "results/allocation_main_20261008",
+  "source_protocol_sha256": "2298048c9d2db3f42ec709703235b015c44337e5569dcd21c323432bc861bc94",
+  "r_values": [
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "validation_base_seed": 20261008,
+  "confirmation_test_seed": 20261010404,
+  "test_generated_after_selection_lock": true,
+  "reps": 5,
+  "train_n": 384,
+  "val_n": 512,
+  "test_n": 2048,
+  "network": "same BoundedCNN as allocation_main_20261008",
+  "training_budget": {
+    "epochs": 40,
+    "batch_size": 64,
+    "lr": 0.002
+  },
+  "risk": "single randomized input f(Z), common confirmation X/Y across methods within each seed",
+  "interval_unit": "five complete training seeds",
+  "torch": "2.14.0+cpu",
+  "numpy": "2.4.1",
+  "scipy": "1.16.3",
+  "python": "3.13.3",
+  "source_sha256": "cb28c2022ec7103f92f2b3687e0b4ccb42a9ac7016882250e28bb7631238a7ad"
+}

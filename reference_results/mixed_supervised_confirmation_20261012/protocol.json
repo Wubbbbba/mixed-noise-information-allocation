@@ -1,0 +1,33 @@
+{
+  "selection_locked_before_test": true,
+  "test_seed_chosen_before_test": 20261012,
+  "source_selection_sha256": "815ead852d4711ccaf8b468dcff9381162a03b7d330077c5970b77b043609538",
+  "supervised_selection_sha256": "0a725aff5cc27dd97752edf30a187b19ae70f11d1f173c1cfac6ef308395b5bc",
+  "frozen_snapshot_sha256": "1e81a5765db8d58c0c8d8ec172fdd8ed7ecc86b4f64d2560300286a4d58a5c72",
+  "methods": [
+    "centered_mean",
+    "fixed_tau_1",
+    "raw_J",
+    "clean_val_oracle",
+    "supervised_clean_train_val_select"
+  ],
+  "source_run": "results/allocation_main_20261008",
+  "supervised_run": "results/mixed_supervised_reference_20261010",
+  "test_n_per_rep": 2048,
+  "reps": 5,
+  "size": 16,
+  "models": [
+    "pg",
+    "gg",
+    "gp"
+  ],
+  "signal_range": [
+    0.25,
+    2.0
+  ],
+  "estimand": "f_tau(Z_tau)",
+  "input_matching": "for a given noise, rep, and tau, every method receives the identical fresh X, Y, and Z_tau",
+  "primary_interval": "two-sided t interval across five independent complete repetitions; includes training and finite-test variation represented by those repetitions",
+  "psnr": "pooled = 10log10(range^2 / pooled MSE); mean-per-image averages image PSNR",
+  "leakage_control": "all tau choices and methods frozen before fresh test generation; no test-based reselection"
+}

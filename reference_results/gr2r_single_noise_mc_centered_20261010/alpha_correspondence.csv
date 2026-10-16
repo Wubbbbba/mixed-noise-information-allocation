@@ -1,0 +1,16 @@
+noise,method,alpha_by_seed,mode_alpha,mode_count,selection_source
+gaussian,Q_MC selection,"0.12,0.3,0.3,0.3,0.3",0.3,4,validation
+gaussian,GR2R sensitivity,"0.3,0.3,0.3,0.3,0.3",0.3,5,fixed protocol
+gaussian,GR2R main,"0.5,0.5,0.5,0.5,0.5",0.5,5,fixed protocol
+gaussian,raw J,"0.5,0.5,0.5,0.5,0.5",0.5,5,fixed protocol
+gaussian,clean validation oracle,"0.5,0.3,0.3,0.3,0.15",0.3,3,validation
+poisson,Q_MC selection,"0.3,0.2,0.3,0.3,0.3",0.3,4,validation
+poisson,GR2R sensitivity,"0.12,0.12,0.12,0.12,0.12",0.12,5,fixed protocol
+poisson,GR2R main,"0.15,0.15,0.15,0.15,0.15",0.15,5,fixed protocol
+poisson,raw J,"0.5,0.5,0.5,0.5,0.5",0.5,5,fixed protocol
+poisson,clean validation oracle,"0.3,0.2,0.3,0.3,0.3",0.3,4,validation
+gamma,Q_MC selection,"0.3,0.15,0.2,0.2,0.2",0.2,3,validation
+gamma,GR2R sensitivity,"0.12,0.12,0.12,0.12,0.12",0.12,5,fixed protocol
+gamma,GR2R main,"0.2,0.2,0.2,0.2,0.2",0.2,5,fixed protocol
+gamma,raw J,"0.5,0.5,0.5,0.5,0.5",0.5,5,fixed protocol
+gamma,clean validation oracle,"0.15,0.2,0.2,0.2,0.15",0.2,3,validation
